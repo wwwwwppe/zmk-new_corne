@@ -86,7 +86,7 @@
 
             bindings = <
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2                      &bt BT_PRV                     &mmv MOVE_UP         &trans             &kp PAGE_UP    &kp HOME  &kp END      &kp PAGE_DOWN    &kp BSPC
-&trans  &bl BL_TOG       &bl BL_CYCLE     &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(180,58,53)  &rgb_ug RGB_COLOR_HSB(0,0,100) &mmv MOVE_DOWN       &kp LEFT           &kp DOWN       &kp UP    &kp RIGHT    &rgb_ug RGB_SAI  &trans
+&trans  &bl BL_TOG       &bl BL_CYCLE     &rgb_ug RGB_TOG  &rgb_ug RGB_TOG                   &rgb_ug RGB_TOG                &mmv MOVE_DOWN       &kp LEFT           &kp DOWN       &kp UP    &kp RIGHT    &rgb_ug RGB_SAI  &trans
 &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI                   &rgb_ug RGB_HUD                &mmv MOVE_LEFT       &kp LC(BACKSPACE)  &kp BACKSPACE  &kp DEL   &kp LC(DEL)  &rgb_ug RGB_SAD  &trans
                          &kp C_MUTE       &trans           &trans                            &trans                         &mmv MOVE_RIGHT      &trans             &trans         &trans
                                                                                                                             &mkp LCLK
