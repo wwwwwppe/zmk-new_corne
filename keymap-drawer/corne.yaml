@@ -64,11 +64,11 @@ layers:
   - PgDn
   - {t: '$$mdi:backspace$$', type: backspace}
   - {type: held}
-  - '&bl BL_TOG'
-  - '&bl BL_CYCLE'
-  - RGB TOG
-  - RGB TOG
-  - RGB TOG
+  - BT CLR ALL
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
