@@ -67,8 +67,8 @@ layers:
   - '&bl BL_TOG'
   - '&bl BL_CYCLE'
   - RGB TOG
-  - RGB COLOR HSB(180,58,53)
-  - RGB COLOR HSB(0,0,100)
+  - RGB TOG
+  - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
