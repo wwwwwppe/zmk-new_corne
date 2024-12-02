@@ -64,11 +64,11 @@ layers:
   - PgDn
   - {t: '$$mdi:backspace$$', type: backspace}
   - {type: held}
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - RGB OFF
+  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -77,10 +77,10 @@ layers:
   - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
+  - RGB EFR
+  - RGB SPI
   - RGB BRI
   - RGB BRD
-  - RGB HUI
   - RGB HUD
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: 'Ctl+ $$mdi:backspace$$', type: backspace}
