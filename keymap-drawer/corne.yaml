@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - '&msc MOVE_UP'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -20,7 +20,7 @@ layers:
   - D
   - F
   - G
-  - '&msc MOVE_DOWN'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - '&msc MOVE_LEFT'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -44,7 +44,7 @@ layers:
   - SYMBOL
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - '&msc MOVE_RIGHT'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - SYMBOL
   - $$mdi:apple-keyboard-control$$
