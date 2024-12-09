@@ -92,7 +92,7 @@
             >;
 
             label = "NUMBER";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp MOVE_DOWN MOVE_UP>;
         };
 
         raise_layer {
