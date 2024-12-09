@@ -40,7 +40,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '''', h: '$$mdi:apple-keyboard-command$$', s: '"'}
-  - $$mdi:volume-off$$
+  - $$mdi:mouse-right-click-outline$$
   - SYMBOL
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
