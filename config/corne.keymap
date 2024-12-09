@@ -49,6 +49,14 @@
         tap-ms = <30>;
     };
 
+    scroll_encoder_lr: scroll_encoder_lr {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc MOVE_UP>, <&msc MOVE_DOWN>;
+        tap-ms = <30>;
+    };
+
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -92,7 +100,7 @@
             >;
 
             label = "NUMBER";
-            sensor-bindings = <&inc_dec_kp MOVE_DOWN MOVE_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         raise_layer {
@@ -127,7 +135,7 @@
             >;
 
             label = "FN";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder_lr>;
         };
     };
 };
