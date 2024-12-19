@@ -83,10 +83,10 @@ layers:
   - RGB BRD
   - RGB HUD
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: 'Ctl+ $$mdi:backspace$$', type: backspace}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - Ctl+ $$mdi:backspace-reverse-outline$$
+  - Ctl+$$mdi:backspace-reverse-outline$$
   - RGB SAD
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
